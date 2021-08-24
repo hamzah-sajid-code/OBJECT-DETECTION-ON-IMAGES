@@ -1,12 +1,37 @@
-body {
+body{
     background-size: cover;
 }
-
-.heading {
-    color: white;
-
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
 }
 
+#status
+{
+font-size: 18px;
+}
+
+canvas
+{
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px black;
+}
+.footer{
+    color: white;
+    position: fixed;
+    width: 25%;
+    bottom: 0px;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    font-size: larger;
+    animation: rainbow-bg 2.5s linear;
+	animation-iteration-count: infinite;
+    margin-left: 0px;
+}
 .btna {
     background-color: white;
     width: 35%;
@@ -17,6 +42,7 @@ body {
     animation: rainbow 2.5s linear;
     animation-iteration-count: infinite;
     cursor: pointer;
+    margin-bottom: 25px;
 }
 
 @keyframes rainbow {
@@ -85,4 +111,7 @@ body {
     91%{
         background-color: rgb(255,0,127);
     }
+}
+.backbtn{
+    float: left;
 }

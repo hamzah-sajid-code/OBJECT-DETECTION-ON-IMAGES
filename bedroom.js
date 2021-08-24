@@ -7,7 +7,7 @@ var CSS_COLOR_NAMES = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","B
 
 
 function preload() {
-    img = loadImage('https://i.postimg.cc/0jZyJCrt/265894-7-aquafina-packaged-drinking-water.jpg');
+    img = loadImage('https://i.postimg.cc/8kn8s3z2/20190725-130500-800x450.jpg');
 }
 
 function setup() {
